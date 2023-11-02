@@ -1,0 +1,110 @@
+body {background-color: #fff;
+    color: #d606ba;
+    font-weight: bold;
+    /* font-family: "Trirong", serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    }
+
+main {
+}
+#myp {text-align: center;
+    font-size: xx-large;
+    color: #d606ba;
+    border: 1px solid #d606ba;
+    font-weight: 500;
+    font-family: "Sofia", sans-serif;
+    margin-bottom: 15px;
+    
+    
+}
+
+#myp:hover {text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    box-shadow: 7px 3px 15px red;}
+
+#maindiv {width: 50%;
+    margin: 125px auto;
+    /* border: 1px solid black; */
+    height: auto;
+    /* background: #f1f1f1; */
+    font-size: small;
+
+        }
+
+/* part 1 */
+
+#firstname {display: inline;
+    float: left;
+    margin-left: 1px;
+    width: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+#lastname {display: inline;
+float: left;
+width: 150px;
+margin-left: 150px;
+font-family: Arial, Helvetica, sans-serif;}
+
+/* part 2 */
+
+#dateofbirth {
+    float: left;
+    margin: 5px 2px 0 1px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+
+/* part 3 */
+#gendertype {
+    text-align: center;
+    float: left;
+    margin:5px 0 5px 119px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* part 4 */
+#option {clear: both;
+    margin: 0 0 5px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* part 5 */
+#email {
+    margin: 2px ;
+    font-family: Arial, Helvetica, sans-serif;}
+/* part 6 */
+#numb {margin:2px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* part 7 */
+#button {background-color: #d606ba;
+margin: 5px auto;
+width: 50%;}
+
+#button p {text-align: center;
+padding: 5px;
+font-size: 20px;
+font-weight:bold;
+color: #f1f1f1;
+text-transform: capitalize;}
+
+#button p:hover {background-color: #ce06b3;}
+
+/* part 8 other */
+input:hover {background-color: #444;
+    color: #fff;}
+
+input:active {background-color: #444;
+             color: #fff;}
+#credit {text-align: center;}
+
+#credit p {font-size: 11px;
+    text-align: center;
+    font-family: 'Playpen Sans', cursive;}
+
+span {color:#341f97 ;}
+
+sup {color: #5f27cd;
+    font-weight: 600;
+}
